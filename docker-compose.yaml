@@ -1,9 +1,9 @@
 services:
   goodbuy-config:
-    image: 'goodbuy-config-docker-image'
+    image: 'goodbuy-config-image'
     build:
       context: .
-    container_name: 'goodbuy-config-docker-container'
+    container_name: 'goodbuy-config-container'
     ports:
       - "8085:8085"
     networks:
